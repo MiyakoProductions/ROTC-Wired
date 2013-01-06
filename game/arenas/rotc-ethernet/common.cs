@@ -20,6 +20,8 @@ $MissionInfo::MutatorDesc = ""
 	@ "half-energy\tEnergy is dropped to half\n"
 	@ "double-energy\tEnergy is doubled\n"
 	@ "quad-energy\tEnergy is quaded\n"
+	@ "permaboard\tEtherboard is permanent\n"
+	@ "slasher-disc\tRepel Disc becomes a Slasher Disc\n"
 	@ "instagib\tClassic Instagib\n"
 	@ "blaster-arena\tBlasters Only\n"
 	@ "";

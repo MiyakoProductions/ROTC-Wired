@@ -172,15 +172,27 @@ function initMission()
 			$Server::Game.energyMod = 4;
 			$Server::Game.mutators = %mutator SPC $Server::Game.mutators;
 		}
+		else if(%mutator $= "permaboard")
+		{
+			$Server::Game.permaboard = true;
+			$Server::Game.mutators = %mutator SPC $Server::Game.mutators;
+		}
+		else if(%mutator $= "slasher-disc")
+		{
+			$Server::Game.slasherdisc = true;
+			$Server::Game.mutators = %mutator SPC $Server::Game.mutators;
+		}
 		// test
 		else if(%mutator $= "instagib")
 		{
+			%recognized = %mutator SPC %recognized;
 			$Game::GameType = $Game::Instagib;
 			$Game::GameTypeString = "ROTC: Ethernet - Instagib";
 			$Server::Game.mutators = %mutator SPC $Server::Game.mutators;
 		}
 		else if(%mutator $= "blaster-arena")
 		{
+			%recognized = %mutator SPC %recognized;
 			$Game::GameType = $Game::BlasterArena;
 			$Game::GameTypeString = "ROTC: Ethernet - Blaster Arena";
 			$Server::Game.mutators = %mutator SPC $Server::Game.mutators;

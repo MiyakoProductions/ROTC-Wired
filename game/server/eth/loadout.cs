@@ -39,14 +39,27 @@ function GameConnection::defaultLoadout(%this)
 	{
 		%this.loadout[1] = $CatEquipment::BattleRifle;
 		%this.loadout[2] = $CatEquipment::Blaster;
+
 		%this.loadout[3] = $CatEquipment::Etherboard;
 		%this.loadout[4] = $CatEquipment::Damper;
 		%this.loadout[5] = $CatEquipment::VAMP;
 		%this.loadout[6] = $CatEquipment::Anchor;
 		%this.loadout[7] = $CatEquipment::Grenade;
 		%this.loadout[8] = $CatEquipment::Bounce;
-		%this.loadout[9] = $CatEquipment::RepelDisc;
+		if($Server::Game.permaboard)
+		{
+			%this.loadout[9] = $CatEquipment::SlasherDisc;		
+		}
+		else
+		{
+			%this.loadout[9] = $CatEquipment::RepelDisc;
+		}
 		%this.loadout[10] = $CatEquipment::ExplosiveDisc;
+		if($Server::Game.permaboard)
+		{
+		%this.loadout[11] = $CatEquipment::Permaboard;
+		}
+		
 	}
 	else if($Game::GameType == $Game::Infantry)
 	{
@@ -92,12 +105,28 @@ function GameConnection::defaultLoadout(%this)
 	{
 		%this.loadout[1] = $CatEquipment::Sniperrifle;
 		%this.loadout[2] = $CatEquipment::Etherboard;
+		if($Server::Game.permaboard)
+		{
+			%this.loadout[3] = $CatEquipment::Permaboard;
+		}
 	}
 	else if($Game::GameType == $Game::BlasterArena)
 	{
 		%this.loadout[1] = $CatEquipment::Blaster;
 		%this.loadout[2] = $CatEquipment::Etherboard;
-		%this.loadout[3] = $CatEquipment::SlasherDisc;
+		if($Server::Game.slasherdisc)
+		{
+			%this.loadout[3] = $CatEquipment::SlasherDisc;
+		}
+		else if($Server::Game.permaboard)
+		{
+			%this.loadout[3] = $CatEquipment::Permaboard;
+		}
+		else if($Server::Game.permaboard && $Server::Game.slasherdisc)
+		{
+			%this.loadout[3] = $CatEquipment::SlasherDisc;
+			%this.loadout[4] = $CatEquipment::Permaboard;
+		}
 	}
 	else
 	{

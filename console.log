@@ -1,0 +1,2169 @@
+//-------------------------- 1/6/2013 -- 12:54:33 -----
+Processor Init:
+   AMD (unknown), ~3.33 Ghz
+     (timed at roughly 3.33 Ghz)
+   FPU detected
+   MMX detected
+   SSE detected
+ 
+Math Init:
+   Installing Standard C extensions
+   Installing Assembly extensions
+   Installing FPU extensions
+   Installing MMX extensions
+   Installing SSE extensions
+ 
+Input Init:
+   keyboard0 input device created.
+   mouse0 input device created.
+   DirectInput enabled.
+
+Initializing chunk mappings...
+   o 'TEXT' maps to TextChunk
+   o 'SCHK' maps to UnknownChunk
+   o 'SCHK' maps to SimChunk
+--------- Loading MODS ---------
+Loading compiled script game/main.cs.
+Loading compiled script common/main.cs.
+Loading compiled script game/client/defaults.cs.
+Compiling game/client/prefs.cs...
+Loading compiled script game/client/prefs.cs.
+Loading compiled script share/main.cs.
+Loading compiled script creator/main.cs.
+Loading compiled script common/main.cs.
+
+--------- Parsing Arguments ---------
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+Loading compiled script common/auxiliary/array.cs.
+Loading compiled script common/auxiliary/missionInfo.cs.
+
+--------- Initializing MOD: Ethernet ---------
+Loading compiled script game/client/init.cs.
+Loading compiled script game/server/init.cs.
+Missing file: game/data/init.cs!
+
+--------- Initializing Ethernet: Client ---------
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Loading compiled script common/client/actionMap.recording.cs.
+Loading compiled script common/client/materialMappings.cs.
+Loading compiled script common/client/mumble.cs.
+Loading compiled script common/client/tacticalZones.cs.
+Loading compiled script common/client/commands.cs.
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/materialMappings.cs.
+Loading compiled script game/client/scripts/audioDescriptions.cs.
+Loading compiled script game/client/ui/shell/profiles.cs.
+Loading compiled script game/client/ui/hud/profiles.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 1366x768x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: NVIDIA Corporation
+  Renderer: GeForce 210/PCIe/SSE2
+  Version: 3.3.0
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 4)
+  EXT_blend_color
+  EXT_blend_minmax
+  EXT_compiled_vertex_array
+  NV_vertex_array_range
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16)
+  WGL_EXT_swap_control
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  3DFX_texture_compression_FXT1
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Loading compiled script common/ui/ColorPickerDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/ui/NetGraphGui.gui.
+Loading compiled script common/ui/TorqueSplash.gui.
+Loading compiled script common/ui/RecordingFreelook.gui.
+Loading compiled script common/ui/RecordingControls.gui.
+Loading compiled script common/ui/RecordingJumpTo.gui.
+Loading compiled script common/ui/RecordingSettings.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+^Vendor: Creative Labs Inc.
+^Version: 1.1
+^Renderer: Software
+^Extensions: EAX EAX2.0 EAX3.0 EAX4.0 EAX5.0 EAX3.0EMULATED EAX4.0EMULATED AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE
+
+Loading compiled script game/client/ui/init.cs.
+Loading compiled script game/client/ui/shell/shell.cs.
+Loading compiled script game/client/ui/shell/shell.gui.
+Loading compiled script game/client/ui/shell/rootMenu.cs.
+Loading compiled script game/client/ui/shell/rootMenu.gui.
+Loading compiled script game/client/ui/shell/startServer.cs.
+Loading compiled script game/client/ui/shell/startServer.gui.
+Loading compiled script game/client/ui/shell/startServerMutators.gui.
+Loading compiled script game/client/ui/shell/joinServer.cs.
+Loading compiled script game/client/ui/shell/joinServer.gui.
+Loading compiled script game/client/ui/shell/options.cs.
+Loading compiled script game/client/ui/shell/options.gui.
+Loading compiled script game/client/ui/shell/optPlayer.cs.
+Loading compiled script game/client/ui/shell/optPlayer.gui.
+Loading compiled script game/client/ui/shell/optGraphics.cs.
+Loading compiled script game/client/ui/shell/optGraphics.gui.
+Loading compiled script game/client/ui/shell/optAudio.cs.
+Loading compiled script game/client/ui/shell/optAudio.gui.
+Loading compiled script game/client/ui/shell/optNetwork.cs.
+Loading compiled script game/client/ui/shell/optNetwork.gui.
+Loading compiled script game/client/ui/shell/optControls.cs.
+Loading compiled script game/client/ui/shell/optControls.gui.
+Loading compiled script game/client/ui/shell/recordings.cs.
+Loading compiled script game/client/ui/shell/recordings.gui.
+Loading compiled script game/client/ui/shell/missileCommand.cs.
+Loading compiled script game/client/ui/shell/missileCommand.gui.
+Loading compiled script game/client/ui/shell/about.cs.
+Loading compiled script game/client/ui/shell/about.gui.
+Loading compiled script game/client/ui/shell/remapDlg.cs.
+Loading compiled script game/client/ui/shell/remapDlg.gui.
+Loading compiled script game/client/ui/shell/endGameGui.cs.
+Loading compiled script game/client/ui/shell/endGameGui.gui.
+Loading compiled script game/client/ui/shell/loadMap.cs.
+Loading compiled script game/client/ui/shell/loadMap.gui.
+Loading compiled script game/client/ui/shell/mission.cs.
+Loading compiled script game/client/ui/shell/mission.gui.
+Loading compiled script game/client/ui/shell/joinTeam.cs.
+Loading compiled script game/client/ui/shell/joinTeam.gui.
+Loading compiled script game/client/ui/shell/playerList.cs.
+Loading compiled script game/client/ui/shell/playerList.gui.
+Loading compiled script game/client/ui/shell/mapInfo.cs.
+Loading compiled script game/client/ui/shell/mapInfo.gui.
+Loading compiled script game/client/ui/shell/mapDesc.cs.
+Loading compiled script game/client/ui/shell/mapDesc.gui.
+Loading compiled script game/client/ui/shell/mapCopyright.cs.
+Loading compiled script game/client/ui/shell/mapCopyright.gui.
+Loading compiled script game/client/ui/shell/mapLicense.cs.
+Loading compiled script game/client/ui/shell/mapLicense.gui.
+Loading compiled script game/client/ui/shell/mapCredits.cs.
+Loading compiled script game/client/ui/shell/mapCredits.gui.
+Loading compiled script game/client/ui/shell/irc.cs.
+Loading compiled script game/client/ui/shell/irc.gui.
+Loading compiled script game/client/ui/shell/motd.cs.
+Loading compiled script game/client/ui/shell/motd.gui.
+game/client/ui/shell/motd.cs (25): Unable to find object: 'MotdText' attempting to call function 'setText'
+Loading compiled script game/client/ui/hud/hud.cs.
+Loading compiled script game/client/ui/hud/hud.gui.
+Could not locate texture: game/client/ui/hud/pixmaps/
+Loading compiled script game/client/ui/hud/chatHud.cs.
+Loading compiled script game/client/ui/hud/chatHud.gui.
+Loading compiled script game/client/ui/hud/messages.cs.
+Loading compiled script game/client/ui/hud/messageHud.cs.
+Loading compiled script game/client/ui/hud/simpleControl.cs.
+Missing file: game/client/ui/hud/animationListDlg.gui!
+Loading compiled script game/client/ui/hud/transformDlg.gui.
+Could not locate texture: game/client/ui/hud/hudfill.png
+Loading compiled script game/client/ui/hud/celAnimationDlg.gui.
+Could not locate texture: game/client/ui/hud/hudfill.png
+Loading compiled script game/client/ui/hud/teamplayDlg.gui.
+Could not locate texture: game/client/ui/hud/hudfill.png
+Loading compiled script game/client/ui/hud/selectLoadoutDlg.gui.
+Loading compiled script game/client/ui/hud/centerPrint.cs.
+Loading compiled script game/client/ui/hud/shellDlg.gui.
+Loading compiled script game/client/ui/cmdrscreen/cmdrscreen.cs.
+Loading compiled script game/client/ui/cmdrscreen/cmdrscreen.gui.
+Loading compiled script game/client/scripts/cmds.cs.
+Loading compiled script game/client/scripts/client.cs.
+Loading compiled script game/client/scripts/missionDownload.cs.
+Loading compiled script game/client/scripts/serverConnection.cs.
+Loading compiled script game/client/scripts/game.cs.
+Loading compiled script game/client/scripts/misc.cs.
+Loading compiled script game/client/scripts/mumble.cs.
+Loading compiled script game/client/scripts/remap.list.cs.
+Loading compiled script game/client/scripts/remap.functions.cs.
+Loading compiled script game/client/scripts/actionmap.global.cs.
+Loading compiled script game/client/scripts/actionmap.standard.cs.
+Loading compiled script game/client/scripts/actionmap.aircraft.cs.
+Loading compiled script game/client/scripts/actionmap.cmdrscreen.cs.
+Compiling game/client/config.cs...
+Loading compiled script game/client/config.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Set::remove: Object "IngameMenuReturn" does not exist in set
+
+--------- Initializing: Torque Creator ---------
+Loading compiled script creator/editor/editor.cs.
+Loading compiled script creator/editor/particleEditor.cs.
+Loading compiled script creator/scripts/scriptDoc.cs.
+Loading compiled script creator/ui/creatorProfiles.cs.
+Loading compiled script creator/ui/InspectDlg.gui.
+Loading compiled script creator/ui/GuiEditorGui.gui.
+Loading compiled script creator/ui/lightEditor.gui.
+Loading compiled script creator/ui/lightEditorNewDB.gui.
+Engine initialized...
+game/client/ui/shell/shell.cs (155): Unable to find object: '' attempting to call function 'getId'
+Executing game/arenas/rotc-team-jousting/icebound.mis.
+Executing game/arenas/rotc-team-drag-racing/icebound.mis.
+Executing game/arenas/rotc-methmatch/nat-pond.mis.
+Executing game/arenas/rotc-methmatch/nat-parc.mis.
+Executing game/arenas/rotc-methmatch/malloc.mis.
+Executing game/arenas/rotc-methmatch/eth-pond.mis.
+Executing game/arenas/rotc-infantry/eth1.mis.
+Loading compiled script game/arenas/rotc-infantry/common.cs.
+Executing game/arenas/rotc-gridwars/malloc.mis.
+Loading compiled script game/arenas/rotc-gridwars/common.cs.
+Executing game/arenas/rotc-ethernet/nat-pond.mis.
+Compiling game/arenas/rotc-ethernet/common.cs...
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/nat-pond-xmas.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/nat-parc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/mesh.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/malloc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-wastes.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-pond.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-bcons/alpha.mis.
+Loading compiled script game/arenas/rotc-bcons/common.cs.
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+game/client/ui/shell/startServer.cs (35): Unable to find object: 'SS_ShowMapInfoButton' attempting to call function 'setActive'
+Executing game/arenas/rotc-ethernet/eth-wastes.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/malloc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MutatorsWindow(1321) MutatorsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object MutatorsWindow(1321) MutatorsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (149): Unable to find object: '0' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (150): Unable to find object: '0' attempting to call function 'add'
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (42): Unable to find object: 'ServerMessagesWindow' attempting to call function 'getParent'
+game/client/ui/shell/shell.cs (42): Unable to find object: '' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (43): Unable to find object: 'ServerMessagesWindow' attempting to call function 'onRemovedAsWindow'
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object RecordingControlsWindow(1220) RecordingControlsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/materialMappings.cs.
+Starting multiplayer mode
+Binding server port to default IP
+UDP initialized on port 2501
+*** LOADING MISSION: game/arenas/rotc-ethernet/malloc.mis
+*** Stage 1 load
+common/server/missionLoad.cs (29): Unable to find function clearCenterPrintAll
+common/server/missionLoad.cs (30): Unable to find function clearBottomPrintAll
+Executing game/arenas/rotc-ethernet/malloc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Compiling game/server/missions/rotc-eth.cs...
+Loading compiled script game/server/missions/rotc-eth.cs.
+Loading compiled script game/server/missions/rotc-types.cs.
+Loading compiled script game/server/base/exec.cs.
+Loading compiled script common/server/lightingsystem.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/lights/*.dso
+
+Loading light datablocks from: common/lighting/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/filters/*.dso
+
+Loading light datablocks from: common/lighting/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+Loading compiled script game/server/base/compat.cs.
+Loading compiled script game/server/base/commands.cs.
+Loading compiled script game/server/base/centerPrint.cs.
+Loading compiled script game/server/base/game.cs.
+Loading compiled script game/server/base/audiodescriptions.cs.
+Loading compiled script game/server/base/etherform.cs.
+Loading compiled script game/server/base/etherform.sfx.cs.
+Loading compiled script game/server/base/etherform.gfx.cs.
+Loading compiled script game/server/base/gameconnection.cs.
+Loading compiled script game/server/base/globals.cs.
+Loading compiled script game/server/base/party.cs.
+Loading compiled script game/server/base/booze.cs.
+Loading compiled script game/server/base/cats.cs.
+ ----- executing cat scripts ----- 
+Loading compiled script game/server/base/cats.sfx.cs.
+Loading compiled script game/server/base/cats.gfx.cs.
+Object '0' is not a member of the 'DebrisData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/base/cats/partysounds.cs.
+Loading compiled script game/server/base/cats/partyanims.cs.
+Loading compiled script game/server/base/cats/standard/standard.cs.
+Loading compiled script share/shapes/rotc/players/standardcat/player.cs.
+Loading compiled script game/server/base/cats/standard/standard.sfx.cs.
+Loading compiled script game/server/base/cats/standard/standard.gfx.cs.
+ParticleEmitterData(RedStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(RedStandardCatFootPuffEmitter) ejectionOffset < 0
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) ejectionOffset < 0
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Loading compiled script game/server/base/fullcontrol.cs.
+Loading compiled script game/server/base/waypointdata.cs.
+Loading compiled script game/server/base/misc.cs.
+Loading compiled script game/server/base/camera.cs.
+Loading compiled script game/server/base/markers.cs.
+... Shape with old version.
+Loading compiled script game/server/base/triggers.cs.
+Loading compiled script game/server/base/tacticalzones.cs.
+Loading compiled script game/server/base/shapebase.cs.
+Loading compiled script game/server/base/simplecontrol.cs.
+Loading compiled script game/server/base/simplecontrol.gfx.cs.
+Loading compiled script game/server/base/staticshape.cs.
+Loading compiled script game/server/base/radiusdamage.cs.
+Loading compiled script game/server/base/rigidShape.cs.
+Loading compiled script game/server/base/aiplayer.cs.
+Loading compiled script game/server/base/teams.cs.
+Loading compiled script game/server/base/loadout.cs.
+Loading compiled script game/server/base/spawn_and_death.cs.
+Loading compiled script game/server/base/teamplay.cs.
+Missing file: game/server/base/weapons.cs!
+Loading compiled script game/server/base/players.cs.
+ ----- executing player scripts ----- 
+Loading compiled script game/server/base/players.gfx.red.cs.
+Loading compiled script game/server/base/players.gfx.blue.cs.
+Loading compiled script game/server/base/vehicles.cs.
+ ----- executing vehicle scripts ----- 
+Loading compiled script game/server/base/vehicles.gfx.cs.
+Object 'HugeVehicleExplosionSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'AssaultRifleProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/base/turrets.cs.
+Loading compiled script game/server/base/objectspawn.cs.
+Loading compiled script game/server/base/stats.cs.
+Loading compiled script game/server/base/music.cs.
+Loading compiled script game/server/base/onlinemenu.cs.
+Loading compiled script game/server/base/gamestatus.cs.
+Loading compiled script game/server/eth/exec.cs.
+Loading compiled script game/server/eth/gameconnection.cs.
+Loading compiled script game/server/eth/commands.cs.
+Loading compiled script game/server/eth/manual.cs.
+Loading compiled script game/server/eth/hints.cs.
+Compiling game/server/eth/loadout.cs...
+Loading compiled script game/server/eth/loadout.cs.
+Loading compiled script game/server/eth/mainmenu.cs.
+Loading compiled script game/server/eth/news.cs.
+Loading compiled script game/server/eth/playerlist.cs.
+Loading compiled script game/server/eth/loadoutmenu.cs.
+Loading compiled script game/server/eth/teamsmenu.cs.
+Loading compiled script game/server/eth/settings.cs.
+Loading compiled script game/server/eth/adminmenu.cs.
+Loading compiled script game/server/eth/help.cs.
+Loading compiled script game/server/weapons/exec.cs.
+Loading compiled script game/server/weapons/weapons.cs.
+Loading compiled script game/server/weapons/weapons.sfx.cs.
+Loading compiled script game/server/weapons/weapons.gfx.cs.
+Loading compiled script game/server/weapons/disc.cs.
+Loading compiled script game/server/weapons/disc.sfx.cs.
+Loading compiled script game/server/weapons/disc.interceptor.cs.
+Loading compiled script game/server/weapons/disc.interceptor.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.interceptor.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.cs.
+Loading compiled script game/server/weapons/disc.seeker.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.cs.
+Loading compiled script game/server/weapons/disc.repel.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.cs.
+Loading compiled script game/server/weapons/disc.explosive.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenade2/exec.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.sfx.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Compiling game/server/weapons/sniperrifle.cs...
+game/server/weapons/sniperrifle.cs Line: 55 - parse error
+>>> Advanced script error report.  Line 55.
+>>> Some error context, with ## on sides of error halt:
+^rotation    = "0 0 0";
+    eyeOffset   = "0.5 -0.2 -0.2";
+^eyeRotation = "0 0 0 0";
+
+^// Adjust firing vector to eye's LOS point?
+^correctMuzzleVector = true;
+
+^// Use energy for ammo?
+^usesEnergy = true;
+^if ($Game::GameType == $Game::Instagib)
+##^##{
+^^minEnergy = 100;
+^}
+^else
+^{
+^^minEnergy = 30;
+^}
+    // charging...
+^minCharge = 0.4;
+
+^projectile = RedSniperProjectile;
+    missile = RedSniperMissile;
+    
+^// targeting...
+    targetingMask = $TargetingMask::Heat;
+^targetingMaxDist = 10000;
+>>> Error report complete.
+
+Loading compiled script game/server/weapons/sniperrifle.cs.
+Loading compiled script game/server/weapons/sniperrifle.sfx.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.cyan.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.cs.
+Loading compiled script game/server/weapons/assaultrifle.sfx.cs.
+Loading compiled script game/server/weapons/assaultrifle.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/grenadelauncher.cs.
+Loading compiled script game/server/weapons/grenadelauncher.sfx.cs.
+Loading compiled script game/server/weapons/grenadelauncher.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'RedGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'BlueGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.projectile1.cs.
+Loading compiled script game/server/weapons/blaster.cs.
+Loading compiled script game/server/weapons/blaster.projectile.cs.
+Loading compiled script game/server/weapons/blaster.projectile.sfx.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/blaster.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/exec.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/minigun.cs.
+Loading compiled script game/server/weapons/minigun.projectile.cs.
+Loading compiled script game/server/weapons/minigun.projectile.sfx.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/minigun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.cs.
+Loading compiled script game/server/weapons/repelgun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.gfx.red.cs.
+Object 'RedRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.gfx.blue.cs.
+Object 'BlueRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.projectile.cs.
+Loading compiled script game/server/weapons/repelgun.mine.cs.
+Loading compiled script game/server/weapons/repelgun.mine.gfx.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repel.cs.
+Loading compiled script game/server/weapons/repel.sfx.cs.
+Loading compiled script game/server/weapons/repel.gfx.cs.
+Object 'OrangeRepelExplosionSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/blueprints/exec.cs.
+Loading compiled script game/server/blueprints/blueprints.cs.
+Loading compiled script game/server/blueprints/exampleturret.cs.
+Loading compiled script game/server/blueprints/exampleturret.blueprint.cs.
+Loading compiled script game/server/blueprints/exampleturret.sfx.cs.
+Loading compiled script game/server/blueprints/exampleturret.gfx.cs.
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 0 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/server/blueprints/scoutdrone.cs.
+Loading compiled script game/server/blueprints/scoutdrone.blueprint.cs.
+Loading compiled script game/server/blueprints/scoutdrone.sfx.cs.
+Loading compiled script game/server/blueprints/scoutdrone.gfx.cs.
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find particle datablock: ScoutDroneDefunctEffect_MemoryLeak0Particles
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find any particle datablocks
+game/server/blueprints/scoutdrone.gfx.cs (214): Register object failed for object ScoutDroneDefunctEffect_MemoryLeak0Emitter of class ParticleEmitterData.
+Object 'ScoutDroneDefunctEffect_MemoryLeak0Emitter' is not a member of the 'ParticleEmitterData' data block class
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/arenas/rotc-ethernet/malloc/mission.cs.
+Loading compiled script game/arenas/rotc-ethernet/malloc/mission.env.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/malloc/lights/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/malloc/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/malloc/filters/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/malloc/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+game/server/eth/manual.cs (45): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (20): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+*** Stage 2 load
+Loading mission environment file: game/arenas/rotc-ethernet/malloc/mission.env
+Loading compiled script game/arenas/rotc-ethernet/malloc/mission.env.
+*** Mission loaded
+Number of zones: 1 red / 0 blue
+Number of zones: 1 red / 1 blue
+Connect request from: IPX:17000000:070000002300:0 args:  rotc-ethernet p.5.3+dev2 /dev/kitsune             
+Connection established 2001
+CADD: 2002 local
+*** Sending cookie requests to client.
+*** Sending mission load to client: game/arenas/rotc-ethernet/malloc.mis
+game/client/scripts/missionDownload.cs (27): Unable to find object: 'IngameMenuText' attempting to call function 'setText'
+game/client/ui/shell/shell.cs (28): Unable to find object: '0' attempting to call function 'getId'
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgClientJoin to index: 2
+Mapping string: Welcome %1. to index: 3
+Mapping string: /dev/kitsune to index: 4
+Mapping string: CookieRequest to index: 5
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Mapping string: MenuVisible to index: 0
+Mapping string: MissionStartPhase1 to index: 6
+*** New Mission: game/arenas/rotc-ethernet/malloc/mission.env
+*** Phase 1: Download Material Mappings, Datablocks & Targets
+Mapping string: BeginQuickbarTxt to index: 7
+Mapping string: AddQuickbarTxt to index: 8
+Mapping string: MissionStartPhase1Ack to index: 1
+Mapping string: EndQuickbarTxt to index: 9
+Mapping string: BeginMenuTxt to index: 10
+Mapping string: AddMenuTxt to index: 11
+Mapping string: EndMenuTxt to index: 12
+Mapping string: MaterialMapping to index: 13
+Received info request from a master server [IP:84.23.68.56:28002].
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Mapping string: MsgMusic to index: 14
+clientPlayMusic() 225 
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 1 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Mapping string: MissionStartPhase2 to index: 15
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 2
+Could not locate texture: share/interiors/malloc/malloc/dark_blue_grid
+Could not locate texture: share/interiors/malloc/malloc/dark_blue_grid
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 16
+*** Phase 3: Shape replication
+Client Replication Startup has Happened!
+*** Phase 3: Foliage replication
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: TacticalZone grid computation
+Computing grid for zone 1 / 3
+Computing grid for zone 2 / 3
+Computing grid for zone 3 / 3
+*** Phase 3: Mission Lighting
+ Successfully loaded mission lighting file: 'game/arenas/rotc-ethernet/malloc/mission_27237e76.ml'
+Mission lighting done
+Could not locate texture: game/arenas/rotc-ethernet/malloc/map.png
+Could not locate texture: game/arenas/rotc-ethernet/malloc/map.png
+Mapping string: MissionStartPhase3Ack to index: 3
+game/server/base/gameconnection.cs (423): Unable to find object: '' attempting to call function 'getEyeTransform'
+Mapping string: MissionStart to index: 17
+Mapping string: SyncClock to index: 18
+Mapping string: MsgWarning to index: 19
+Mapping string: MsgHudMenuL to index: 20
+Mapping string: MsgHudMenuR to index: 21
+Mapping string: MsgHudMenuT to index: 22
+Mapping string: MsgHudMenuC to index: 23
+Mapping string: Crosshair to index: 24
+Mapping string: LoadingBarTxt to index: 25
+Mapping string: MsgClientJoinTeam to index: 26
+Mapping string: %1 joined the %2. to index: 27
+Mapping string: MsgGrenadeAmmo to index: 28
+Mapping string: SetHudColor to index: 29
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+Mapping string: SkyColor to index: 30
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not register damage buffer particle emitter for class: ObserverCamera
+*** Initial Control Object
+Could not locate texture: game/client/ui/hud/pixmaps/
+Pushing action map: moveMap
+Set::remove: Object "IngameMenuReturn" does not exist in set
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object RootMenuWindow(1278) RootMenuWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+Mapping string: /dev/kitsune-1.0 to index: 31
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Received info request from a master server [IP:84.23.68.56:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Received info request from a master server [IP:84.23.68.56:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+Mapping string: PlayerAction to index: 4
+Mapping string: MsgGrenadeAmmoDt to index: 1
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+*** Initial Control Object
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+Mapping string: SimpleCommand to index: 5
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (161): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_0 to index: 2
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_1 to index: 3
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_2 to index: 5
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_3 to index: 6
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_4 to index: 13
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_5 to index: 14
+game/server/base/players.cs (102): Unknown command setHudMenuR.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (1038): Unknown command displayInventory.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/players.cs (165): Unknown command setNewbieHelp.
+  Object (2074) ScriptObject -> SimObject
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not register slide particle emitter for class: BlueStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Mapping string: wayne_6 to index: 15
+Set::remove: Object "IngameMenuReturn" does not exist in set
+Number of zones: 2 red / 1 blue
+clientUpdateMusic() MusicStartup -> MusicStartup
+Number of zones: 2 red / 0 blue
+Number of zones: 2 red / 1 blue
+keyboard0 input device unacquired.
+DirectInput deactivated.
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Received info request from a master server [IP:84.23.68.56:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Received info request from a master server [IP:84.23.68.56:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+clientUpdateMusic() MusicStartup -> MusicStartup
+clientUpdateMusic() MusicStartup -> MusicStartup
+Received info request from a master server [IP:209.90.70.74:28002].
+clientUpdateMusic() MusicStartup -> MusicStartup
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+Set::remove: Object "IngameMenuReturn" does not exist in set
+Number of zones: 2 red / 0 blue
+game/server/base/shapebase.cs (342): Unknown command updateHudColors.
+  Object (2074) ScriptObject -> SimObject
+Mapping string: MsgMusic to index: 16
+clientPlayMusic() 227 1
+game/server/weapons/disc.repel.cs (60): Unknown command play2D.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/shapebase.cs (342): Unknown command updateHudColors.
+  Object (2074) ScriptObject -> SimObject
+game/server/weapons/disc.repel.cs (60): Unknown command play2D.
+  Object (2074) ScriptObject -> SimObject
+game/server/base/shapebase.cs (342): Unknown command updateHudColors.
+  Object (2074) ScriptObject -> SimObject
+game/server/weapons/disc.repel.cs (60): Unknown command play2D.
+  Object (2074) ScriptObject -> SimObject
+Executing game/arenas/rotc-team-jousting/icebound.mis.
+Executing game/arenas/rotc-team-drag-racing/icebound.mis.
+Executing game/arenas/rotc-methmatch/nat-pond.mis.
+Executing game/arenas/rotc-methmatch/nat-parc.mis.
+Executing game/arenas/rotc-methmatch/malloc.mis.
+Executing game/arenas/rotc-methmatch/eth-pond.mis.
+Executing game/arenas/rotc-infantry/eth1.mis.
+Loading compiled script game/arenas/rotc-infantry/common.cs.
+Executing game/arenas/rotc-gridwars/malloc.mis.
+Loading compiled script game/arenas/rotc-gridwars/common.cs.
+Executing game/arenas/rotc-ethernet/nat-pond.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/nat-pond-xmas.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/nat-parc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/mesh.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/malloc.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-wastes.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-pond.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Executing game/arenas/rotc-bcons/alpha.mis.
+Loading compiled script game/arenas/rotc-bcons/common.cs.
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+game/client/ui/shell/startServer.cs (35): Unable to find object: 'SS_ShowMapInfoButton' attempting to call function 'setActive'
+game/client/ui/shell/shell.cs (28): Unable to find object: '0' attempting to call function 'getId'
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MutatorsWindow(1321) MutatorsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+clientUpdateMusic() MusicVictory1 -> MusicVictory1
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (42): Unable to find object: 'ServerMessagesWindow' attempting to call function 'getParent'
+game/client/ui/shell/shell.cs (42): Unable to find object: '' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (43): Unable to find object: 'ServerMessagesWindow' attempting to call function 'onRemovedAsWindow'
+game/client/ui/shell/shell.cs (42): Unable to find object: '0' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object RecordingControlsWindow(1220) RecordingControlsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Popping action map: moveMap
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object RootMenuWindow(1278) RootMenuWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+*** ENDING MISSION
+CDROP: 2002 IPX:17000000:070000002300:0
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/materialMappings.cs.
+Starting multiplayer mode
+Binding server port to default IP
+UDP initialized on port 2501
+*** LOADING MISSION: game/arenas/rotc-ethernet/eth-archipelago.mis
+*** Stage 1 load
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Loading compiled script game/server/missions/rotc-eth.cs.
+Loading compiled script game/server/missions/rotc-types.cs.
+Loading compiled script game/server/base/exec.cs.
+Loading compiled script common/server/lightingsystem.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/lights/*.dso
+
+Loading light datablocks from: common/lighting/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/filters/*.dso
+
+Loading light datablocks from: common/lighting/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+Loading compiled script game/server/base/compat.cs.
+Loading compiled script game/server/base/commands.cs.
+Loading compiled script game/server/base/centerPrint.cs.
+Loading compiled script game/server/base/game.cs.
+Loading compiled script game/server/base/audiodescriptions.cs.
+Loading compiled script game/server/base/etherform.cs.
+Loading compiled script game/server/base/etherform.sfx.cs.
+Loading compiled script game/server/base/etherform.gfx.cs.
+Loading compiled script game/server/base/gameconnection.cs.
+Loading compiled script game/server/base/globals.cs.
+Loading compiled script game/server/base/party.cs.
+Loading compiled script game/server/base/booze.cs.
+Loading compiled script game/server/base/cats.cs.
+ ----- executing cat scripts ----- 
+Loading compiled script game/server/base/cats.sfx.cs.
+Loading compiled script game/server/base/cats.gfx.cs.
+Object '0' is not a member of the 'DebrisData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/base/cats/partysounds.cs.
+Loading compiled script game/server/base/cats/partyanims.cs.
+Loading compiled script game/server/base/cats/standard/standard.cs.
+Loading compiled script share/shapes/rotc/players/standardcat/player.cs.
+Loading compiled script game/server/base/cats/standard/standard.sfx.cs.
+Loading compiled script game/server/base/cats/standard/standard.gfx.cs.
+ParticleEmitterData(RedStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(RedStandardCatFootPuffEmitter) ejectionOffset < 0
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) ejectionOffset < 0
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Loading compiled script game/server/base/fullcontrol.cs.
+Loading compiled script game/server/base/waypointdata.cs.
+Loading compiled script game/server/base/misc.cs.
+Loading compiled script game/server/base/camera.cs.
+Loading compiled script game/server/base/markers.cs.
+... Shape with old version.
+Loading compiled script game/server/base/triggers.cs.
+Loading compiled script game/server/base/tacticalzones.cs.
+Loading compiled script game/server/base/shapebase.cs.
+Loading compiled script game/server/base/simplecontrol.cs.
+Loading compiled script game/server/base/simplecontrol.gfx.cs.
+Loading compiled script game/server/base/staticshape.cs.
+Loading compiled script game/server/base/radiusdamage.cs.
+Loading compiled script game/server/base/rigidShape.cs.
+Loading compiled script game/server/base/aiplayer.cs.
+Loading compiled script game/server/base/teams.cs.
+Loading compiled script game/server/base/loadout.cs.
+Loading compiled script game/server/base/spawn_and_death.cs.
+Loading compiled script game/server/base/teamplay.cs.
+Missing file: game/server/base/weapons.cs!
+Loading compiled script game/server/base/players.cs.
+ ----- executing player scripts ----- 
+Loading compiled script game/server/base/players.gfx.red.cs.
+Loading compiled script game/server/base/players.gfx.blue.cs.
+Loading compiled script game/server/base/vehicles.cs.
+ ----- executing vehicle scripts ----- 
+Loading compiled script game/server/base/vehicles.gfx.cs.
+Object 'HugeVehicleExplosionSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'AssaultRifleProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/base/turrets.cs.
+Loading compiled script game/server/base/objectspawn.cs.
+Loading compiled script game/server/base/stats.cs.
+Loading compiled script game/server/base/music.cs.
+Loading compiled script game/server/base/onlinemenu.cs.
+Loading compiled script game/server/base/gamestatus.cs.
+Loading compiled script game/server/eth/exec.cs.
+Loading compiled script game/server/eth/gameconnection.cs.
+Loading compiled script game/server/eth/commands.cs.
+Loading compiled script game/server/eth/manual.cs.
+Loading compiled script game/server/eth/hints.cs.
+Loading compiled script game/server/eth/loadout.cs.
+Loading compiled script game/server/eth/mainmenu.cs.
+Loading compiled script game/server/eth/news.cs.
+Loading compiled script game/server/eth/playerlist.cs.
+Loading compiled script game/server/eth/loadoutmenu.cs.
+Loading compiled script game/server/eth/teamsmenu.cs.
+Loading compiled script game/server/eth/settings.cs.
+Loading compiled script game/server/eth/adminmenu.cs.
+Loading compiled script game/server/eth/help.cs.
+Loading compiled script game/server/weapons/exec.cs.
+Loading compiled script game/server/weapons/weapons.cs.
+Loading compiled script game/server/weapons/weapons.sfx.cs.
+Loading compiled script game/server/weapons/weapons.gfx.cs.
+Loading compiled script game/server/weapons/disc.cs.
+Loading compiled script game/server/weapons/disc.sfx.cs.
+Loading compiled script game/server/weapons/disc.interceptor.cs.
+Loading compiled script game/server/weapons/disc.interceptor.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.interceptor.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.cs.
+Loading compiled script game/server/weapons/disc.seeker.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.cs.
+Loading compiled script game/server/weapons/disc.repel.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.cs.
+Loading compiled script game/server/weapons/disc.explosive.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenade2/exec.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.sfx.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Compiling game/server/weapons/sniperrifle.cs...
+game/server/weapons/sniperrifle.cs Line: 55 - parse error
+>>> Advanced script error report.  Line 55.
+>>> Some error context, with ## on sides of error halt:
+^rotation    = "0 0 0";
+    eyeOffset   = "0.5 -0.2 -0.2";
+^eyeRotation = "0 0 0 0";
+
+^// Adjust firing vector to eye's LOS point?
+^correctMuzzleVector = true;
+
+^// Use energy for ammo?
+^usesEnergy = true;
+^if ($Game::GameType == $Game::Instagib)
+##^##{
+^^minEnergy = 100;
+^}
+^else
+^{
+^^minEnergy = 30;
+^}
+    // charging...
+^minCharge = 0.4;
+
+^projectile = RedSniperProjectile;
+    missile = RedSniperMissile;
+    
+^// targeting...
+    targetingMask = $TargetingMask::Heat;
+^targetingMaxDist = 10000;
+>>> Error report complete.
+
+Loading compiled script game/server/weapons/sniperrifle.cs.
+Loading compiled script game/server/weapons/sniperrifle.sfx.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.cyan.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.cs.
+Loading compiled script game/server/weapons/assaultrifle.sfx.cs.
+Loading compiled script game/server/weapons/assaultrifle.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/grenadelauncher.cs.
+Loading compiled script game/server/weapons/grenadelauncher.sfx.cs.
+Loading compiled script game/server/weapons/grenadelauncher.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'RedGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'BlueGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.projectile1.cs.
+Loading compiled script game/server/weapons/blaster.cs.
+Loading compiled script game/server/weapons/blaster.projectile.cs.
+Loading compiled script game/server/weapons/blaster.projectile.sfx.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/blaster.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/exec.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/minigun.cs.
+Loading compiled script game/server/weapons/minigun.projectile.cs.
+Loading compiled script game/server/weapons/minigun.projectile.sfx.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/minigun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.cs.
+Loading compiled script game/server/weapons/repelgun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.gfx.red.cs.
+Object 'RedRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.gfx.blue.cs.
+Object 'BlueRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.projectile.cs.
+Loading compiled script game/server/weapons/repelgun.mine.cs.
+Loading compiled script game/server/weapons/repelgun.mine.gfx.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repel.cs.
+Loading compiled script game/server/weapons/repel.sfx.cs.
+Loading compiled script game/server/weapons/repel.gfx.cs.
+Object 'OrangeRepelExplosionSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/blueprints/exec.cs.
+Loading compiled script game/server/blueprints/blueprints.cs.
+Loading compiled script game/server/blueprints/exampleturret.cs.
+Loading compiled script game/server/blueprints/exampleturret.blueprint.cs.
+Loading compiled script game/server/blueprints/exampleturret.sfx.cs.
+Loading compiled script game/server/blueprints/exampleturret.gfx.cs.
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 0 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/server/blueprints/scoutdrone.cs.
+Loading compiled script game/server/blueprints/scoutdrone.blueprint.cs.
+Loading compiled script game/server/blueprints/scoutdrone.sfx.cs.
+Loading compiled script game/server/blueprints/scoutdrone.gfx.cs.
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find particle datablock: ScoutDroneDefunctEffect_MemoryLeak0Particles
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find any particle datablocks
+game/server/blueprints/scoutdrone.gfx.cs (214): Register object failed for object ScoutDroneDefunctEffect_MemoryLeak0Emitter of class ParticleEmitterData.
+Object 'ScoutDroneDefunctEffect_MemoryLeak0Emitter' is not a member of the 'ParticleEmitterData' data block class
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.cs.
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.env.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/lights/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/filters/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+game/server/eth/manual.cs (45): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (20): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+*** Stage 2 load
+Loading mission environment file: game/arenas/rotc-ethernet/eth-archipelago/mission.env
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.env.
+*** Mission loaded
+Number of zones: 0 red / 1 blue
+Number of zones: 1 red / 1 blue
+Connect request from: IPX:4D000000:450000006407:588 args:  rotc-ethernet p.5.3+dev2 /dev/kitsune             
+Connection established 2584
+CADD: 2585 local
+*** Sending cookie requests to client.
+*** Sending mission load to client: game/arenas/rotc-ethernet/eth-archipelago.mis
+game/client/scripts/missionDownload.cs (27): Unable to find object: 'IngameMenuText' attempting to call function 'setText'
+game/client/ui/shell/shell.cs (28): Unable to find object: '0' attempting to call function 'getId'
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgClientJoin to index: 2
+Mapping string: Welcome %1. to index: 3
+Mapping string: /dev/kitsune to index: 4
+Mapping string: CookieRequest to index: 5
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Mapping string: MenuVisible to index: 0
+Mapping string: MissionStartPhase1 to index: 6
+*** New Mission: game/arenas/rotc-ethernet/eth-archipelago/mission.env
+*** Phase 1: Download Material Mappings, Datablocks & Targets
+Mapping string: BeginQuickbarTxt to index: 7
+Mapping string: AddQuickbarTxt to index: 8
+Mapping string: MissionStartPhase1Ack to index: 1
+Mapping string: EndQuickbarTxt to index: 9
+Mapping string: BeginMenuTxt to index: 10
+Mapping string: AddMenuTxt to index: 11
+Mapping string: EndMenuTxt to index: 12
+Mapping string: MaterialMapping to index: 13
+Warning, overwriting material properties for: dark_grey_blue_grid
+Warning, overwriting material properties for: malloc/dark_blue_grid
+Received info request from a master server [IP:84.23.68.56:28002].
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Mapping string: MsgMusic to index: 14
+clientPlayMusic() 227 0
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Received info request from a master server [IP:209.90.70.74:28002].
+clientPlayMusic() 225 
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 1 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Mapping string: MissionStartPhase2 to index: 15
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 2
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 16
+*** Phase 3: Shape replication
+Client Replication Startup has Happened!
+*** Phase 3: Foliage replication
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: TacticalZone grid computation
+Computing grid for zone 1 / 37
+Computing grid for zone 2 / 37
+Computing grid for zone 3 / 37
+Computing grid for zone 4 / 37
+Computing grid for zone 5 / 37
+Computing grid for zone 6 / 37
+Computing grid for zone 7 / 37
+Computing grid for zone 8 / 37
+Computing grid for zone 9 / 37
+Computing grid for zone 10 / 37
+Computing grid for zone 11 / 37
+Computing grid for zone 12 / 37
+Computing grid for zone 13 / 37
+Computing grid for zone 14 / 37
+Computing grid for zone 15 / 37
+Computing grid for zone 16 / 37
+Computing grid for zone 17 / 37
+Computing grid for zone 18 / 37
+Computing grid for zone 19 / 37
+Computing grid for zone 20 / 37
+Computing grid for zone 21 / 37
+Computing grid for zone 22 / 37
+Computing grid for zone 23 / 37
+Computing grid for zone 24 / 37
+Computing grid for zone 25 / 37
+Computing grid for zone 26 / 37
+Computing grid for zone 27 / 37
+Computing grid for zone 28 / 37
+Computing grid for zone 29 / 37
+Computing grid for zone 30 / 37
+Computing grid for zone 31 / 37
+Computing grid for zone 32 / 37
+Computing grid for zone 33 / 37
+Computing grid for zone 34 / 37
+Computing grid for zone 35 / 37
+Computing grid for zone 36 / 37
+Computing grid for zone 37 / 37
+*** Phase 3: Mission Lighting
+ Successfully loaded mission lighting file: 'game/arenas/rotc-ethernet/eth-archipelago/mission_31e0351c.ml'
+Mission lighting done
+Could not locate texture: game/arenas/rotc-ethernet/eth-archipelago/map.png
+Could not locate texture: game/arenas/rotc-ethernet/eth-archipelago/map.png
+Mapping string: MissionStartPhase3Ack to index: 3
+game/server/base/gameconnection.cs (423): Unable to find object: '' attempting to call function 'getEyeTransform'
+Mapping string: MissionStart to index: 17
+Mapping string: SyncClock to index: 18
+Mapping string: MsgWarning to index: 19
+Mapping string: MsgHudMenuL to index: 20
+Mapping string: MsgHudMenuR to index: 21
+Mapping string: MsgHudMenuT to index: 22
+Mapping string: MsgHudMenuC to index: 23
+Mapping string: Crosshair to index: 24
+Mapping string: LoadingBarTxt to index: 25
+Mapping string: MsgClientJoinTeam to index: 26
+Mapping string: %1 joined the %2. to index: 27
+Mapping string: MsgGrenadeAmmo to index: 28
+Mapping string: SetHudColor to index: 29
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+Mapping string: SkyColor to index: 30
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not register damage buffer particle emitter for class: ObserverCamera
+*** Initial Control Object
+Could not locate texture: game/client/ui/hud/pixmaps/
+Pushing action map: moveMap
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object RootMenuWindow(1278) RootMenuWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+Mapping string: /dev/kitsune-1.0 to index: 31
+clientUpdateMusic() MusicVictory1 -> MusicStartup
+Mapping string: PlayerAction to index: 4
+Mapping string: MsgGrenadeAmmoDt to index: 1
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+*** Initial Control Object
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (42): Unable to find object: 'ServerMessagesWindow' attempting to call function 'getParent'
+game/client/ui/shell/shell.cs (42): Unable to find object: '' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (43): Unable to find object: 'ServerMessagesWindow' attempting to call function 'onRemovedAsWindow'
+game/client/ui/shell/shell.cs (42): Unable to find object: '0' attempting to call function 'remove'
+game/client/ui/shell/shell.cs (43): Unknown command onRemovedAsWindow.
+  Object RecordingControlsWindow(1220) RecordingControlsWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Popping action map: moveMap
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object RootMenuWindow(1278) RootMenuWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+*** ENDING MISSION
+CDROP: 2585 IPX:4D000000:450000006407:588
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Loading compiled script common/server/kickban.cs.
+Loading compiled script common/server/materialMappings.cs.
+Starting multiplayer mode
+Binding server port to default IP
+UDP initialized on port 2501
+*** LOADING MISSION: game/arenas/rotc-ethernet/eth-archipelago.mis
+*** Stage 1 load
+Executing game/arenas/rotc-ethernet/eth-archipelago.mis.
+Loading compiled script game/arenas/rotc-ethernet/common.cs.
+Loading compiled script game/server/missions/rotc-eth.cs.
+Loading compiled script game/server/missions/rotc-types.cs.
+Loading compiled script game/server/base/exec.cs.
+Loading compiled script common/server/lightingsystem.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/lights/*.dso
+
+Loading light datablocks from: common/lighting/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: common/lighting/filters/*.dso
+
+Loading light datablocks from: common/lighting/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+Loading compiled script game/server/base/compat.cs.
+Loading compiled script game/server/base/commands.cs.
+Loading compiled script game/server/base/centerPrint.cs.
+Loading compiled script game/server/base/game.cs.
+Loading compiled script game/server/base/audiodescriptions.cs.
+Loading compiled script game/server/base/etherform.cs.
+Loading compiled script game/server/base/etherform.sfx.cs.
+Loading compiled script game/server/base/etherform.gfx.cs.
+Loading compiled script game/server/base/gameconnection.cs.
+Loading compiled script game/server/base/globals.cs.
+Loading compiled script game/server/base/party.cs.
+Loading compiled script game/server/base/booze.cs.
+Loading compiled script game/server/base/cats.cs.
+ ----- executing cat scripts ----- 
+Loading compiled script game/server/base/cats.sfx.cs.
+Loading compiled script game/server/base/cats.gfx.cs.
+Object '0' is not a member of the 'DebrisData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/base/cats/partysounds.cs.
+Loading compiled script game/server/base/cats/partyanims.cs.
+Loading compiled script game/server/base/cats/standard/standard.cs.
+Loading compiled script share/shapes/rotc/players/standardcat/player.cs.
+Loading compiled script game/server/base/cats/standard/standard.sfx.cs.
+Loading compiled script game/server/base/cats/standard/standard.gfx.cs.
+ParticleEmitterData(RedStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(RedStandardCatFootPuffEmitter) ejectionOffset < 0
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) velocityVariance > mFabs(ejectionVelocity)
+ParticleEmitterData(BlueStandardCatFootPuffEmitter) ejectionOffset < 0
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Loading compiled script game/server/base/fullcontrol.cs.
+Loading compiled script game/server/base/waypointdata.cs.
+Loading compiled script game/server/base/misc.cs.
+Loading compiled script game/server/base/camera.cs.
+Loading compiled script game/server/base/markers.cs.
+... Shape with old version.
+Loading compiled script game/server/base/triggers.cs.
+Loading compiled script game/server/base/tacticalzones.cs.
+Loading compiled script game/server/base/shapebase.cs.
+Loading compiled script game/server/base/simplecontrol.cs.
+Loading compiled script game/server/base/simplecontrol.gfx.cs.
+Loading compiled script game/server/base/staticshape.cs.
+Loading compiled script game/server/base/radiusdamage.cs.
+Loading compiled script game/server/base/rigidShape.cs.
+Loading compiled script game/server/base/aiplayer.cs.
+Loading compiled script game/server/base/teams.cs.
+Loading compiled script game/server/base/loadout.cs.
+Loading compiled script game/server/base/spawn_and_death.cs.
+Loading compiled script game/server/base/teamplay.cs.
+Missing file: game/server/base/weapons.cs!
+Loading compiled script game/server/base/players.cs.
+ ----- executing player scripts ----- 
+Loading compiled script game/server/base/players.gfx.red.cs.
+Loading compiled script game/server/base/players.gfx.blue.cs.
+Loading compiled script game/server/base/vehicles.cs.
+ ----- executing vehicle scripts ----- 
+Loading compiled script game/server/base/vehicles.gfx.cs.
+Object 'HugeVehicleExplosionSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'HeGrenadeExplodeSound' is not a member of the 'AudioProfile' data block class
+Object 'AssaultRifleProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/base/turrets.cs.
+Loading compiled script game/server/base/objectspawn.cs.
+Loading compiled script game/server/base/stats.cs.
+Loading compiled script game/server/base/music.cs.
+Loading compiled script game/server/base/onlinemenu.cs.
+Loading compiled script game/server/base/gamestatus.cs.
+Loading compiled script game/server/eth/exec.cs.
+Loading compiled script game/server/eth/gameconnection.cs.
+Loading compiled script game/server/eth/commands.cs.
+Loading compiled script game/server/eth/manual.cs.
+Loading compiled script game/server/eth/hints.cs.
+Loading compiled script game/server/eth/loadout.cs.
+Loading compiled script game/server/eth/mainmenu.cs.
+Loading compiled script game/server/eth/news.cs.
+Loading compiled script game/server/eth/playerlist.cs.
+Loading compiled script game/server/eth/loadoutmenu.cs.
+Loading compiled script game/server/eth/teamsmenu.cs.
+Loading compiled script game/server/eth/settings.cs.
+Loading compiled script game/server/eth/adminmenu.cs.
+Loading compiled script game/server/eth/help.cs.
+Loading compiled script game/server/weapons/exec.cs.
+Loading compiled script game/server/weapons/weapons.cs.
+Loading compiled script game/server/weapons/weapons.sfx.cs.
+Loading compiled script game/server/weapons/weapons.gfx.cs.
+Loading compiled script game/server/weapons/disc.cs.
+Loading compiled script game/server/weapons/disc.sfx.cs.
+Loading compiled script game/server/weapons/disc.interceptor.cs.
+Loading compiled script game/server/weapons/disc.interceptor.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.interceptor.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.cs.
+Loading compiled script game/server/weapons/disc.seeker.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.seeker.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.cs.
+Loading compiled script game/server/weapons/disc.repel.gfx.red.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.repel.gfx.blue.cs.
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.cs.
+Loading compiled script game/server/weapons/disc.explosive.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/disc.explosive.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'DiscBounceSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenade2/exec.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.sfx.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.cs.
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Loading compiled script game/server/weapons/grenade2/grenade2.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Compiling game/server/weapons/sniperrifle.cs...
+game/server/weapons/sniperrifle.cs Line: 55 - parse error
+>>> Advanced script error report.  Line 55.
+>>> Some error context, with ## on sides of error halt:
+^rotation    = "0 0 0";
+    eyeOffset   = "0.5 -0.2 -0.2";
+^eyeRotation = "0 0 0 0";
+
+^// Adjust firing vector to eye's LOS point?
+^correctMuzzleVector = true;
+
+^// Use energy for ammo?
+^usesEnergy = true;
+^if ($Game::GameType == $Game::Instagib)
+##^##{
+^^minEnergy = 100;
+^}
+^else
+^{
+^^minEnergy = 30;
+^}
+    // charging...
+^minCharge = 0.4;
+
+^projectile = RedSniperProjectile;
+    missile = RedSniperMissile;
+    
+^// targeting...
+    targetingMask = $TargetingMask::Heat;
+^targetingMaxDist = 10000;
+>>> Error report complete.
+
+Loading compiled script game/server/weapons/sniperrifle.cs.
+Loading compiled script game/server/weapons/sniperrifle.sfx.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.orange.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.cyan.cs.
+Loading compiled script game/server/weapons/sniperrifle.projectile.gfx.green.cs.
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Object 'BlueMissileLauncherFireEmitter' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.cs.
+Loading compiled script game/server/weapons/assaultrifle.sfx.cs.
+Loading compiled script game/server/weapons/assaultrifle.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/assaultrifle.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/grenadelauncher.cs.
+Loading compiled script game/server/weapons/grenadelauncher.sfx.cs.
+Loading compiled script game/server/weapons/grenadelauncher.gfx.red.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'RedGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.gfx.blue.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Object 'BlueGrenadeLauncherProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/grenadelauncher.projectile1.cs.
+Loading compiled script game/server/weapons/blaster.cs.
+Loading compiled script game/server/weapons/blaster.projectile.cs.
+Loading compiled script game/server/weapons/blaster.projectile.sfx.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/blaster.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/blaster.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/exec.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.sfx.cs.
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.red.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/blaster2/blaster2.gfx.blue.cs.
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Object '0' is not a member of the 'ParticleEmitterData' data block class
+Loading compiled script game/server/weapons/minigun.cs.
+Loading compiled script game/server/weapons/minigun.projectile.cs.
+Loading compiled script game/server/weapons/minigun.projectile.sfx.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.red.cs.
+Loading compiled script game/server/weapons/minigun.projectile.gfx.blue.cs.
+Loading compiled script game/server/weapons/minigun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.cs.
+Loading compiled script game/server/weapons/repelgun.sfx.cs.
+Loading compiled script game/server/weapons/repelgun.gfx.red.cs.
+Object 'RedRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.gfx.blue.cs.
+Object 'BlueRepelGunProjectileImpactSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repelgun.projectile.cs.
+Loading compiled script game/server/weapons/repelgun.mine.cs.
+Loading compiled script game/server/weapons/repelgun.mine.gfx.cs.
+Object 'MissileLauncherDebrisSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/weapons/repel.cs.
+Loading compiled script game/server/weapons/repel.sfx.cs.
+Loading compiled script game/server/weapons/repel.gfx.cs.
+Object 'OrangeRepelExplosionSound' is not a member of the 'AudioProfile' data block class
+Loading compiled script game/server/blueprints/exec.cs.
+Loading compiled script game/server/blueprints/blueprints.cs.
+Loading compiled script game/server/blueprints/exampleturret.cs.
+Loading compiled script game/server/blueprints/exampleturret.blueprint.cs.
+Loading compiled script game/server/blueprints/exampleturret.sfx.cs.
+Loading compiled script game/server/blueprints/exampleturret.gfx.cs.
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 0 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/server/blueprints/scoutdrone.cs.
+Loading compiled script game/server/blueprints/scoutdrone.blueprint.cs.
+Loading compiled script game/server/blueprints/scoutdrone.sfx.cs.
+Loading compiled script game/server/blueprints/scoutdrone.gfx.cs.
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find particle datablock: ScoutDroneDefunctEffect_MemoryLeak0Particles
+ParticleEmitterData(ScoutDroneDefunctEffect_MemoryLeak0Emitter) unable to find any particle datablocks
+game/server/blueprints/scoutdrone.gfx.cs (214): Register object failed for object ScoutDroneDefunctEffect_MemoryLeak0Emitter of class ParticleEmitterData.
+Object 'ScoutDroneDefunctEffect_MemoryLeak0Emitter' is not a member of the 'ParticleEmitterData' data block class
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.cs.
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.env.cs.
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/lights/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/lights/*.cs
+Loading complete.
+//-----------------------------------------------
+
+
+//-----------------------------------------------
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/filters/*.dso
+
+Loading light datablocks from: game/arenas/rotc-ethernet/eth-archipelago/filters/*.cs
+Loading complete.
+//-----------------------------------------------
+
+game/server/eth/manual.cs (45): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/manual.cs (54): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (20): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+game/server/eth/hints.cs (36): Unable to find object: 'MissionCleanup' attempting to call function 'add'
+*** Stage 2 load
+Loading mission environment file: game/arenas/rotc-ethernet/eth-archipelago/mission.env
+Loading compiled script game/arenas/rotc-ethernet/eth-archipelago/mission.env.
+*** Mission loaded
+Number of zones: 0 red / 1 blue
+Number of zones: 1 red / 1 blue
+Connect request from: IPX:0001165B:0001165B0001:23318 args:  rotc-ethernet p.5.3+dev2 /dev/kitsune             
+Connection established 2958
+CADD: 2959 local
+*** Sending cookie requests to client.
+*** Sending mission load to client: game/arenas/rotc-ethernet/eth-archipelago.mis
+game/client/scripts/missionDownload.cs (27): Unable to find object: 'IngameMenuText' attempting to call function 'setText'
+game/client/ui/shell/shell.cs (28): Unable to find object: '0' attempting to call function 'getId'
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+Sending heartbeat to master server [IP:209.90.70.74:28002]
+Sending heartbeat to master server [IP:84.23.68.56:28002]
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+Mapping string: MsgClientJoin to index: 2
+Mapping string: Welcome %1. to index: 3
+Mapping string: /dev/kitsune to index: 4
+Mapping string: CookieRequest to index: 5
+Mapping string: MenuVisible to index: 0
+Mapping string: MissionStartPhase1 to index: 6
+*** New Mission: game/arenas/rotc-ethernet/eth-archipelago/mission.env
+*** Phase 1: Download Material Mappings, Datablocks & Targets
+Mapping string: BeginQuickbarTxt to index: 7
+Mapping string: AddQuickbarTxt to index: 8
+Mapping string: MissionStartPhase1Ack to index: 1
+Mapping string: EndQuickbarTxt to index: 9
+Mapping string: BeginMenuTxt to index: 10
+Mapping string: AddMenuTxt to index: 11
+Mapping string: EndMenuTxt to index: 12
+Mapping string: MaterialMapping to index: 13
+Warning, overwriting material properties for: dark_grey_blue_grid
+Warning, overwriting material properties for: malloc/dark_blue_grid
+Received info request from a master server [IP:84.23.68.56:28002].
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Mapping string: MsgMusic to index: 14
+clientPlayMusic() 225 
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.red.dts
+Validation required for shape: share/shapes/rotc/players/standardcat/player2.blue.dts
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.red
+Could not locate texture: share/shapes/rotc/weapons/grenade2/lasertrail.blue
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/weapons/disc/projectile.red
+Could not locate texture: share/textures/projectile.red
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.orange.miss
+Could not locate texture: share/shapes/rotc/weapons/sniperrifle/lasertrail2.green.miss
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/weapons/assaultrifle/Material
+Could not locate texture: share/textures/Material
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Warning: shape share/shapes/rotc/turrets/exampleturret/turret.dts collision detail 1 (Collision-3) bounds exceed that of shape.
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_c' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_b' in detail level 3
+share/shapes/rotc/turrets/exampleturret.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+share/shapes/rotc/vehicles/scoutdrone.dts - Collision mesh names should start with Col or LOSCol, encountered 's_a' in detail level 3
+Mapping string: MissionStartPhase2 to index: 15
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 2
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Could not register damage buffer particle emitter for class: SpawnSphereMarker
+Ghost Always objects received.
+Mapping string: MissionStartPhase3 to index: 16
+*** Phase 3: Shape replication
+Client Replication Startup has Happened!
+*** Phase 3: Foliage replication
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: TacticalZone grid computation
+Computing grid for zone 1 / 37
+Computing grid for zone 2 / 37
+Computing grid for zone 3 / 37
+Computing grid for zone 4 / 37
+Computing grid for zone 5 / 37
+Computing grid for zone 6 / 37
+Computing grid for zone 7 / 37
+Computing grid for zone 8 / 37
+Computing grid for zone 9 / 37
+Computing grid for zone 10 / 37
+Computing grid for zone 11 / 37
+Computing grid for zone 12 / 37
+Computing grid for zone 13 / 37
+Computing grid for zone 14 / 37
+Computing grid for zone 15 / 37
+Computing grid for zone 16 / 37
+Computing grid for zone 17 / 37
+Computing grid for zone 18 / 37
+Computing grid for zone 19 / 37
+Computing grid for zone 20 / 37
+Computing grid for zone 21 / 37
+Computing grid for zone 22 / 37
+Computing grid for zone 23 / 37
+Computing grid for zone 24 / 37
+Computing grid for zone 25 / 37
+Computing grid for zone 26 / 37
+Computing grid for zone 27 / 37
+Computing grid for zone 28 / 37
+Computing grid for zone 29 / 37
+Computing grid for zone 30 / 37
+Computing grid for zone 31 / 37
+Computing grid for zone 32 / 37
+Computing grid for zone 33 / 37
+Computing grid for zone 34 / 37
+Computing grid for zone 35 / 37
+Computing grid for zone 36 / 37
+Computing grid for zone 37 / 37
+*** Phase 3: Mission Lighting
+ Successfully loaded mission lighting file: 'game/arenas/rotc-ethernet/eth-archipelago/mission_31e0351c.ml'
+Mission lighting done
+Could not locate texture: game/arenas/rotc-ethernet/eth-archipelago/map.png
+Could not locate texture: game/arenas/rotc-ethernet/eth-archipelago/map.png
+Mapping string: MissionStartPhase3Ack to index: 3
+game/server/base/gameconnection.cs (423): Unable to find object: '' attempting to call function 'getEyeTransform'
+Mapping string: MissionStart to index: 17
+Mapping string: SyncClock to index: 18
+Mapping string: MsgWarning to index: 19
+Mapping string: MsgHudMenuL to index: 20
+Mapping string: MsgHudMenuR to index: 21
+Mapping string: MsgHudMenuT to index: 22
+Mapping string: MsgHudMenuC to index: 23
+Mapping string: Crosshair to index: 24
+Mapping string: LoadingBarTxt to index: 25
+Mapping string: MsgClientJoinTeam to index: 26
+Mapping string: %1 joined the %2. to index: 27
+Mapping string: MsgGrenadeAmmo to index: 28
+Mapping string: SetHudColor to index: 29
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+GuiMLTextCtrl::forceReflow can only be called on visible controls.
+Mapping string: SkyColor to index: 30
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not register damage buffer particle emitter for class: ObserverCamera
+*** Initial Control Object
+Could not locate texture: game/client/ui/hud/pixmaps/
+Pushing action map: moveMap
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object RootMenuWindow(1278) RootMenuWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/shell/shell.cs (33): Unknown command onAddedAsWindow.
+  Object MissionWindow(1533) MissionWindow -> GuiWindowCtrl -> GuiTextCtrl -> GuiControl -> SimGroup -> SimSet -> SimObject
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+Mapping string: /dev/kitsune-1.0 to index: 31
+clientUpdateMusic() MusicStartup -> MusicStartup
+Mapping string: PlayerAction to index: 4
+Mapping string: MsgGrenadeAmmoDt to index: 1
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register slide particle emitter for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not register ground connection beam for class: RedStandardCat
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+Could not locate texture: share/textures/team1jumpgrenade
+Could not locate texture: share/shapes/rotc/misc/team1jumpgrenade
+*** Initial Control Object
+game/client/ui/hud/hud.cs (163): Unable to find object: 'Scanlines' attempting to call function 'setVisible'
+Received info request from a master server [IP:209.90.70.74:28002].
+Exporting client prefs
+Exporting client config
+CDROP: 2959 IPX:0001165B:0001165B0001:23318
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+keyboard0 input device unacquired.
