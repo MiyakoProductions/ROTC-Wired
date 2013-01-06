@@ -1,0 +1,393 @@
+//------------------------------------------------------------------------------
+// Revenge Of The Cats: Ethernet
+// Copyright (C) 2008, mEthLab Interactive
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(IrcWindowForEditing) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(IrcWindow) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "60 18";
+      Extent = "520 450";
+      MinExtent = "350 200";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Global Player Chat";
+      maxLength = "255";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "0";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "left";
+         VertSizing = "bottom";
+         position = "476 5";
+         Extent = "39 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "removeWindow(IrcWindow);";
+         hovertime = "1000";
+         text = "X";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiControl(IrcConnected) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "width";
+         VertSizing = "height";
+         position = "13 23";
+         Extent = "500 414";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+
+         new GuiButtonCtrl(IrcDisconnect) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiButtonProfile";
+            HorizSizing = "left";
+            VertSizing = "bottom";
+            position = "382 20";
+            Extent = "118 23";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Command = "irc_disconnect(\"Disconnected\");";
+            hovertime = "1000";
+            text = "Leave Chat";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+         new GuiButtonCtrl(IrcAskForGameButton) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiButtonProfile";
+            HorizSizing = "left";
+            VertSizing = "top";
+            position = "382 370";
+            Extent = "118 23";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Command = "irc_ask_for_game();";
+            hovertime = "1000";
+            text = "Ask for a game!";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+         new GuiScrollCtrl(IrcTextScroll) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiScrollProfile";
+            HorizSizing = "width";
+            VertSizing = "height";
+            position = "0 23";
+            Extent = "380 367";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            willFirstRespond = "1";
+            hScrollBar = "dynamic";
+            vScrollBar = "alwaysOn";
+            constantThumbHeight = "0";
+            childMargin = "0 0";
+
+            new GuiMLTextCtrl(IrcText) {
+               canSaveDynamicFields = "0";
+               Profile = "GuiMLTextProfile";
+               HorizSizing = "width";
+               VertSizing = "bottom";
+               position = "2 2";
+               Extent = "358 14";
+               MinExtent = "8 2";
+               canSave = "1";
+               Visible = "1";
+               hovertime = "1000";
+               lineSpacing = "2";
+               allowColorChars = "0";
+               maxChars = "-1";
+            };
+         };
+         new GuiTextEditCtrl(IrcSend) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiTextEditProfile";
+            HorizSizing = "width";
+            VertSizing = "top";
+            position = "33 395";
+            Extent = "347 18";
+            MinExtent = "100 18";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            maxLength = "1024";
+            historySize = "0";
+            password = "0";
+            tabComplete = "0";
+            sinkAllKeyEvents = "0";
+            password = "0";
+            passwordMask = "*";
+         };
+         new GuiScrollCtrl(IrcNamesScroll) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiScrollProfile";
+            HorizSizing = "left";
+            VertSizing = "height";
+            position = "385 45";
+            Extent = "112 323";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            willFirstRespond = "1";
+            hScrollBar = "dynamic";
+            vScrollBar = "dynamic";
+            constantThumbHeight = "0";
+            childMargin = "0 0";
+
+            new GuiMLTextCtrl(IrcNames) {
+               canSaveDynamicFields = "0";
+               Profile = "GuiMLTextProfile";
+               HorizSizing = "width";
+               VertSizing = "bottom";
+               position = "2 2";
+               Extent = "108 14";
+               MinExtent = "8 2";
+               canSave = "1";
+               Visible = "1";
+               hovertime = "1000";
+               lineSpacing = "2";
+               allowColorChars = "0";
+               maxChars = "-1";
+            };
+         };
+         new GuiTextCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiTextProfile";
+            HorizSizing = "right";
+            VertSizing = "top";
+            position = "5 395";
+            Extent = "22 18";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            text = "Say:";
+            maxLength = "1024";
+         };
+         new GuiTextCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiTextProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "0 2";
+            Extent = "115 18";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            text = "Relay to in-game chat:";
+            maxLength = "1024";
+         };
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "124 1";
+            Extent = "85 20";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$Pref::IRC::ToChat::Status";
+            hovertime = "1000";
+            text = "Status msgs";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useInactiveState = "0";
+         };
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "217 1";
+            Extent = "39 20";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$Pref::IRC::ToChat::Talk";
+            hovertime = "1000";
+            text = "Talk";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useInactiveState = "0";
+         };
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "267 1";
+            Extent = "110 20";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$Pref::IRC::ToChat::Topic";
+            hovertime = "1000";
+            text = "Topic changes";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useInactiveState = "0";
+         };
+         new GuiCheckBoxCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiCheckBoxProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "362 1";
+            Extent = "110 20";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            Variable = "$Pref::IRC::ToChat::Users";
+            hovertime = "1000";
+            text = "Userlist changes";
+            groupNum = "-1";
+            buttonType = "ToggleButton";
+            useInactiveState = "0";
+         };
+         new GuiButtonCtrl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiButtonProfile";
+            HorizSizing = "left";
+            VertSizing = "top";
+            position = "382 392";
+            Extent = "118 23";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Command = "IrcSend.onReturn();";
+            hovertime = "1000";
+            text = "<-- Say this";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+      };
+      new GuiControl(IrcConnect) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTransparentWindowProfile";
+         HorizSizing = "width";
+         VertSizing = "height";
+         position = "13 23";
+         Extent = "500 414";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+
+         new GuiControl() {
+            canSaveDynamicFields = "0";
+            Profile = "GuiDefaultProfile";
+            HorizSizing = "width";
+            VertSizing = "center";
+            position = "22 157";
+            Extent = "448 100";
+            MinExtent = "8 2";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+
+            new GuiButtonCtrl(IrcConnectButton) {
+               canSaveDynamicFields = "0";
+               Profile = "GuiButtonProfile";
+               HorizSizing = "center";
+               VertSizing = "bottom";
+               position = "184 50";
+               Extent = "80 23";
+               MinExtent = "8 8";
+               canSave = "1";
+               Visible = "1";
+               Command = "irc_connect();";
+               hovertime = "1000";
+               text = "Join Chat";
+               groupNum = "-1";
+               buttonType = "PushButton";
+            };
+            new GuiTextCtrl() {
+               canSaveDynamicFields = "0";
+               Profile = "GuiTextProfile";
+               HorizSizing = "center";
+               VertSizing = "top";
+               position = "182 5";
+               Extent = "83 18";
+               MinExtent = "18 18";
+               canSave = "1";
+               Visible = "1";
+               hovertime = "1000";
+               text = "Pick a nickname:";
+               maxLength = "1024";
+            };
+            new GuiTextEditCtrl(IrcNickname) {
+               canSaveDynamicFields = "0";
+               Profile = "GuiTextEditProfile";
+               HorizSizing = "center";
+               VertSizing = "bottom";
+               position = "182 28";
+               Extent = "83 18";
+               MinExtent = "18 18";
+               canSave = "1";
+               Visible = "1";
+               Variable = "$Pref::IRC::Name";
+               hovertime = "1000";
+               text = "";
+               maxLength = "10";
+               historySize = "0";
+               password = "0";
+               tabComplete = "0";
+               sinkAllKeyEvents = "0";
+               password = "0";
+               passwordMask = "*";
+            };
+            new GuiMLTextCtrl(IrcStatus) {
+               canSaveDynamicFields = "0";
+               Profile = "GuiCenterTextProfile";
+               HorizSizing = "relative";
+               VertSizing = "bottom";
+               position = "0 75";
+               Extent = "448 14";
+               MinExtent = "8 2";
+               canSave = "1";
+               Visible = "1";
+               hovertime = "1000";
+               lineSpacing = "2";
+               allowColorChars = "0";
+               maxChars = "-1";
+            };
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+

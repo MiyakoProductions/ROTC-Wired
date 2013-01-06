@@ -1,0 +1,372 @@
+//------------------------------------------------------------------------------
+// Revenge Of The Cats: Ethernet
+// Copyright (C) 2008, mEthLab Interactive
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(JoinServerWindowForEditing) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(JoinServerWindow) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "60 18";
+      Extent = "560 443";
+      MinExtent = "500 350";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Join Arena";
+      maxLength = "255";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "0";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+
+      new GuiButtonCtrl(JS_RefreshServer) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "left";
+         VertSizing = "top";
+         position = "327 409";
+         Extent = "110 23";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "JoinServerWindow.refreshServer();";
+         hovertime = "1000";
+         text = "Refresh Arena";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "left";
+         VertSizing = "bottom";
+         position = "516 5";
+         Extent = "39 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "JoinServerWindow.exit();";
+         hovertime = "1000";
+         text = "X";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl(JS_queryMaster) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "20 30";
+         Extent = "110 40";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "JoinServerWindow.query();";
+         hovertime = "1000";
+         text = "Search Internet";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl(JS_queryLan) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "133 30";
+         Extent = "110 40";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "JoinServerWindow.queryLan();";
+         hovertime = "1000";
+         text = "Search LAN";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl(JS_JoinServer) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "left";
+         VertSizing = "top";
+         position = "441 409";
+         Extent = "110 23";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "JoinServerWindow.join();";
+         hovertime = "1000";
+         text = "Join Arena";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiScrollCtrl(JS_HeaderListScroll) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "width";
+         VertSizing = "bottom";
+         position = "13 97";
+         Extent = "538 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOff";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(JS_HeaderList) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiTextArrayProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "0 2";
+            Extent = "10071 16";
+            MinExtent = "500 16";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0 130 165 215 375";
+            fitParentWidth = "0";
+            clipColumnText = "0";
+         };
+      };
+      new GuiScrollCtrl(JS_ServerListScroll) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "width";
+         VertSizing = "height";
+         position = "13 123";
+         Extent = "538 184";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(JS_serverList) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiTextArrayProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "3 3";
+            Extent = "16 16";
+            MinExtent = "16 16";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            enumerate = "0";
+            resizeCell = "0";
+            columns = "0 130 165 215 375";
+            fitParentWidth = "0";
+            clipColumnText = "1";
+         };
+      };
+      new GuiTextCtrl(JS_status) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiDefaultProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "244 39";
+         Extent = "266 22";
+         MinExtent = "266 14";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         maxLength = "255";
+      };
+      new GuiControl(JS_queryStatus) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiWindowProfile";
+         HorizSizing = "center";
+         VertSizing = "center";
+         position = "105 196";
+         Extent = "310 50";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "0";
+         hovertime = "1000";
+
+         new GuiButtonCtrl(JS_cancelQuery) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiButtonProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "9 15";
+            Extent = "64 20";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            Command = "JoinServerWindow.cancel();";
+            hovertime = "1000";
+            text = "Cancel!";
+            groupNum = "-1";
+            buttonType = "PushButton";
+         };
+         new GuiProgressCtrl(JS_statusBar) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiProgressProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "84 15";
+            Extent = "207 20";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            maxLength = "1024";
+         };
+         new GuiTextCtrl(JS_statusText) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiProgressTextProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "85 14";
+            Extent = "205 20";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            maxLength = "255";
+         };
+      };
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "width";
+         VertSizing = "top";
+         position = "13 329";
+         Extent = "538 75";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiMLTextEditCtrl(JS_ServerInfo) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiMLTextEditProfile";
+            HorizSizing = "width";
+            VertSizing = "height";
+            position = "3 2";
+            Extent = "377 310";
+            MinExtent = "245 310";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            lineSpacing = "2";
+            allowColorChars = "1";
+            maxChars = "255";
+         };
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "top";
+         position = "13 309";
+         Extent = "55 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Arena Info:";
+         maxLength = "1024";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "22 75";
+         Extent = "386 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Hint: If arenas are empty, try using the -REINDEERFLOTILLA- to find players.";
+         maxLength = "1024";
+      };
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "221 72";
+         Extent = "110 23";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Command = "addWindow(IrcWindow);";
+         hovertime = "1000";
+         text = "Global Player Chat";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "left";
+         VertSizing = "bottom";
+         position = "355 32";
+         Extent = "66 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Player name:";
+         maxLength = "255";
+      };
+      new GuiTextEditCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextEditProfile";
+         HorizSizing = "left";
+         VertSizing = "bottom";
+         position = "424 33";
+         Extent = "127 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$pref::Player::Name";
+         hovertime = "1000";
+         maxLength = "30";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+         password = "0";
+         passwordMask = "*";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+

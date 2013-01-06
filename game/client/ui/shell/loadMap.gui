@@ -1,0 +1,58 @@
+//------------------------------------------------------------------------------
+// Revenge Of The Cats: Ethernet
+// Copyright (C) 2008, mEthLab Interactive
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(LoadingWindowForEditing) {
+	canSaveDynamicFields = "0";
+	Profile = "GuiDefaultProfile";
+	HorizSizing = "right";
+	VertSizing = "bottom";
+	position = "0 0";
+	Extent = "800 600";
+	MinExtent = "8 8";
+	canSave = "1";
+	Visible = "1";
+	hovertime = "1000";
+
+	new GuiWindowCtrl(LoadingWindow) {
+		canSaveDynamicFields = "0";
+		Profile = "GuiWindowProfile";
+		HorizSizing = "center";
+		VertSizing = "center";
+		position = "175 150";
+		Extent = "450 110";
+		MinExtent = "8 8";
+		canSave = "1";
+		Visible = "1";
+		hovertime = "1000";
+		text = "Loading";
+		maxLength = "255";
+		resizeWidth = "0";
+		resizeHeight = "0";
+		canMove = "1";
+		canClose = "1";
+		canMinimize = "1";
+		canMaximize = "0";
+		minSize = "50 50";
+		closeCommand = "removeWindow(LoadingWindow);";
+
+		new GuiTextCtrl(LOAD_Title) {
+			canSaveDynamicFields = "0";
+			Profile = "GuiMediumTextProfile";
+			HorizSizing = "right";
+			VertSizing = "bottom";
+			position = "10 30";
+			Extent = "8 28";
+			MinExtent = "8 8";
+			canSave = "1";
+			Visible = "1";
+			hovertime = "1000";
+			maxLength = "255";
+		};
+
+	};
+};
+//--- OBJECT WRITE END ---
+

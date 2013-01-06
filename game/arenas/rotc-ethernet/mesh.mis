@@ -1,0 +1,2 @@
+exec("./common.cs");
+$MissionInfo::Name = "/env/eth/mesh";

@@ -1,0 +1,348 @@
+//------------------------------------------------------------------------------
+// Revenge Of The Cats: Ethernet
+// Copyright (C) 2008, mEthLab Interactive
+//------------------------------------------------------------------------------
+
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(OptAudioWindowForEditing) {
+   canSaveDynamicFields = "0";
+   Profile = "GuiDefaultProfile";
+   HorizSizing = "right";
+   VertSizing = "bottom";
+   position = "0 0";
+   Extent = "640 480";
+   MinExtent = "8 8";
+   canSave = "1";
+   Visible = "1";
+   hovertime = "1000";
+
+   new GuiWindowCtrl(OptAudioWindow) {
+      canSaveDynamicFields = "0";
+      Profile = "GuiWindowProfile";
+      HorizSizing = "center";
+      VertSizing = "center";
+      position = "139 113";
+      Extent = "361 291";
+      MinExtent = "8 8";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      text = "Audio Options";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+
+      new GuiButtonCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiButtonProfile";
+         HorizSizing = "left";
+         VertSizing = "bottom";
+         position = "317 5";
+         Extent = "39 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Command = "removeWindow(OptAudioWindow);";
+         hovertime = "1000";
+         text = "X";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiSliderCtrl(OptAudioVolumeMusic) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiSliderProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "107 232";
+         Extent = "189 34";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Variable = "value";
+         AltCommand = "OptAudioUpdateChannelVolume($MusicAudioType, OptAudioVolumeMusic.value);";
+         hovertime = "1000";
+         range = "0 1";
+         ticks = "8";
+         value = "1";
+      };
+      new GuiSliderCtrl(OptAudioVolumeSim) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiSliderProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "107 192";
+         Extent = "189 34";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Variable = "value";
+         AltCommand = "OptAudioUpdateChannelVolume($SimAudioType, OptAudioVolumeSim.value);";
+         hovertime = "1000";
+         range = "0 1";
+         ticks = "8";
+         value = "0.73913";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "16 119";
+         Extent = "78 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Master Volume";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "21 156";
+         Extent = "64 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Shell Volume";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "24 193";
+         Extent = "58 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Sim Volume";
+         maxLength = "255";
+      };
+      new GuiSliderCtrl(OptAudioVolumeMaster) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiSliderProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "106 118";
+         Extent = "189 34";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Variable = "value";
+         AltCommand = "OptAudioUpdateMasterVolume(OptAudioVolumeMaster.value);";
+         hovertime = "1000";
+         range = "0 1";
+         ticks = "8";
+         value = "0.773913";
+      };
+      new GuiSliderCtrl(OptAudioVolumeShell) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiSliderProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "106 155";
+         Extent = "189 34";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         Variable = "value";
+         AltCommand = "OptAudioUpdateChannelVolume($GuiAudioType, OptAudioVolumeShell.value);";
+         hovertime = "1000";
+         range = "0 1";
+         ticks = "8";
+         value = "0.747826";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "23 29";
+         Extent = "59 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "OpenAL Info";
+         maxLength = "255";
+      };
+      new GuiCheckBoxCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiCheckBoxProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "106 254";
+         Extent = "91 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$pref::Audio::UseMumbleLink";
+         hovertime = "1000";
+         text = "Mumble Link";
+         groupNum = "-1";
+         buttonType = "ToggleButton";
+         useInactiveState = "0";
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "202 260";
+         Extent = "38 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Status:";
+         maxLength = "1024";
+      };
+      new GuiTextCtrl(OptAudioMumbleLinkStatus) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "242 260";
+         Extent = "66 18";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Not attached";
+         maxLength = "1024";
+      };
+      new GuiScrollCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiScrollProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "107 29";
+         Extent = "242 82";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "dynamic";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+
+         new GuiMLTextCtrl(OptAudioInfo) {
+            canSaveDynamicFields = "0";
+            Profile = "GuiMLTextProfile";
+            HorizSizing = "right";
+            VertSizing = "bottom";
+            position = "2 2";
+            Extent = "190 14";
+            MinExtent = "8 8";
+            canSave = "1";
+            Visible = "1";
+            hovertime = "1000";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+         };
+      };
+      new GuiTextCtrl() {
+         canSaveDynamicFields = "0";
+         Profile = "GuiTextProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "18 233";
+         Extent = "70 18";
+         MinExtent = "8 8";
+         canSave = "1";
+         Visible = "1";
+         hovertime = "1000";
+         text = "Music Volume";
+         maxLength = "255";
+      };
+      new GuiCheckBoxCtrl(OptAudioVolumeMasterMute) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiCheckBoxProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "303 113";
+         Extent = "46 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$Pref::Audio::masterMuted";
+         Command = "OptAudioUpdateMasterVolume(-1);";
+         hovertime = "1000";
+         text = "Mute";
+         groupNum = "-1";
+         buttonType = "ToggleButton";
+         useInactiveState = "0";
+      };
+      new GuiCheckBoxCtrl(OptAudioVolumeShellMute) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiCheckBoxProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "303 150";
+         Extent = "46 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$Pref::Audio::channelMuted1";
+         Command = "OptAudioUpdateChannelVolume($GuiAudioType, -1);";
+         hovertime = "1000";
+         text = "Mute";
+         groupNum = "-1";
+         buttonType = "ToggleButton";
+         useInactiveState = "0";
+      };
+      new GuiCheckBoxCtrl(OptAudioVolumeSimMute) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiCheckBoxProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "303 187";
+         Extent = "46 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$Pref::Audio::channelMuted2";
+         Command = "OptAudioUpdateChannelVolume($SimAudioType, -1);";
+         hovertime = "1000";
+         text = "Mute";
+         groupNum = "-1";
+         buttonType = "ToggleButton";
+         useInactiveState = "0";
+      };
+      new GuiCheckBoxCtrl(OptAudioVolumeMusicMute) {
+         canSaveDynamicFields = "0";
+         Profile = "GuiCheckBoxProfile";
+         HorizSizing = "right";
+         VertSizing = "bottom";
+         position = "303 227";
+         Extent = "46 30";
+         MinExtent = "8 2";
+         canSave = "1";
+         Visible = "1";
+         Variable = "$Pref::Audio::channelMuted4";
+         Command = "OptAudioUpdateChannelVolume($MusicAudioType, -1);";
+         hovertime = "1000";
+         text = "Mute";
+         groupNum = "-1";
+         buttonType = "ToggleButton";
+         useInactiveState = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---
+
+
