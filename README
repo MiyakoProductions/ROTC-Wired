@@ -1,19 +1,33 @@
-Revenge Of The Cats: Ethernet p.5.3
-===================================
 
-Revenge Of The Cats: Ethernet is an independent experimental multiplayer FPS game.
-
-Visit http://ethernet.wasted.ch for more information.
-
-This is prototype 5.3 of the game.
-Just like with the previous prototypes, don't expect any fancy graphics or great maps.
-
-If you're interested in helping with development, check out 
-http://ethernet.wasted.ch/index.php?page=contrib
-
-Known Issues
-------------
-
-- The game is still not very optimized in terms of speed, but the Linux version
-  seems to run incredibly slow on systems with ATI graphics drivers (to the
-  point where it's unplayable).
+     _____    _____    ______    _______          _______    ______   _
+	|  __ |  |  __ |  |__   _|  |  ____ |   _    |_______|  |__   _| | |
+	| |__||  | |  ||     | |    | |    ||  |_|    ____         | |   | |___
+	|  ___|  | |  ||     | |    | |         _    |____|        | |   |  __ |
+	|   \    | |__||     | |    | |____||  |_|    _______      | |   | |  ||
+	|_|\_\   |_____|     |_|    |_______|        |_______|     |_|   |_|  ||
+    ________________________________________________________________________
+   |________________________________________________________________________|
+   
+   - Mutators -
+   
+   - slowpoke			: Slows the game down
+   - high-speed			: Everyone is on a high-speed connection
+   - low-grav			: Low Gravity
+   - high-grav			: Increased Gravity
+   - high-jump			: Jump higher
+   - super-jump			: Jump like a fiend
+   - fast-repair		: Repairs Shields/Health Faster
+   - fast-recharge		: Recharges Energy Faster
+   - half-energy		: Energy /2
+   - doublie-energy		: Energy x2
+   - quad-energy		: Energy x4
+   - superblaster		: Hitscan Blaster
+   - instagib			: Classic Instagib
+   - Blaster Arena
+   - Permaboard
+   - Slasher Disc
+   
+   - Todo (As of 06.01.2013):
+	- Assualt Arena
+	- Disc War
+	- Rocket Arena
